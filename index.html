@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refurbished Electronics Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Refurbished Electronics Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our Store</h2>
+            <p>Your one-stop shop for refurbished and repaired electronics.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-category">
+                <h3>PCs</h3>
+                <!-- List of PCs -->
+                <img src="css/img/tinywow_upscale_67619571.png" alt="PC Image">
+            </div>
+            <div class="product-category">
+                <h3>Tablets</h3>
+                <!-- List of Tablets -->
+                <img src="css/img/tinywow_upscale_67619731.png" alt="Tablet Image">
+            </div>
+            <div class="product-category">
+                <h3>Laptops</h3>
+                <!-- List of Laptops -->
+                <img src="css/img/tinywow_upscale_67618877.png" alt="Laptop Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about our mission and values.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Refurbished Electronics Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
